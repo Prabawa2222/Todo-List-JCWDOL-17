@@ -1,8 +1,6 @@
 "use client";
 
 import TaskList from "@/components/TaskList";
-import { Container } from "@chakra-ui/react";
-import Image from "next/image";
 import { ChangeEvent, useEffect, useState } from "react";
 
 type Task = {
